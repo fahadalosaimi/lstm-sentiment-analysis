@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "device": "cuda",
+  "optimizer_steps": 1,
+  "forward": true,
+  "padding_invariant": true,
+  "weights_changed": true,
+  "artifact_round_trip": true,
+  "cpu_restore": true,
+  "fixture": "synthetic",
+  "full_training": false,
+  "persistent_weights": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "prepared_not_executed",
+  "source_zip_sha256": "e49f872b0118bbd481c9838e17d60a9d3a894e62d39b043bbbf56e474071996d",
+  "results_zip_sha256": "bc16b5a4c13e21495b50d7433f906dc7554bcad149037c62ca08e4bfdd2e435e",
+  "project": "/content/lstm_final_cpu_2r1slrlg/verified_inputs/project",
+  "artifact": "/content/lstm_final_cpu_2r1slrlg/verified_inputs/artifact",
+  "inference_executed": false
+}

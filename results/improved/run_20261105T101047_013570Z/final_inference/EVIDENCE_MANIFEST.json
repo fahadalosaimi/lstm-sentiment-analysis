@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checker_sha256": "6250c27390340c9b680dc49e4ec018d9015e33604c73be2ebbaf2bf7389149ee",
+  "files": {
+    "final_inference_report.json": {
+      "bytes": 6025,
+      "sha256": "9da407a69accf9dba24e113216b1aa409475af1237ae2dfaff415babd4ee5c91"
+    },
+    "final_inference.log": {
+      "bytes": 994,
+      "sha256": "b5039e40c4e37b049c83ceb2244557c3d8b6240cea15b549546b4a972724b71d"
+    },
+    "preparation.json": {
+      "bytes": 401,
+      "sha256": "501caffffad0637733b33eee5814ad602f32a2bf36df318b69ee513f49217606"
+    }
+  }
+}

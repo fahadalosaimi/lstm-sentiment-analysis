@@ -1,0 +1,12 @@
+{
+  "device": "cuda",
+  "cuda_available": true,
+  "gpu": "Tesla T4",
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "numpy": "2.4.6",
+  "matplotlib": "3.10.0",
+  "cuda_build": "13.0",
+  "cudnn": 92700,
+  "cublas_workspace_config": ":4096:8"
+}

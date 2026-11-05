@@ -1,0 +1,121 @@
+{
+  "format_version": 1,
+  "files": {
+    ".gitignore": {
+      "sha256": "3a9f2131519c8c855fd9e92042869d2e654ccf185b63eeeaead06bb3cfa68e89",
+      "bytes": 425
+    },
+    "README.md": {
+      "sha256": "e154b8e4d9bcb24ad352aab2d59c60d71172014dc24abb31d24a871ea317c2e3",
+      "bytes": 12222
+    },
+    "COLAB.md": {
+      "sha256": "8dcdf52d4eebd88afdbee2f55be3ec6d3615473b8df6230db56308e62f882033",
+      "bytes": 7612
+    },
+    "requirements.txt": {
+      "sha256": "88892d1cf861ebda9548bcdb88cabf2a2b03c63ead1996c8c2cdd67b2f4c991b",
+      "bytes": 109
+    },
+    "requirements-notebook.txt": {
+      "sha256": "a64a478e0b34be7f22e781ff480244a7dd83cbc73316c8460640ea41874b9469",
+      "bytes": 72
+    },
+    "requirements-colab.txt": {
+      "sha256": "5a7b022ecb9ae0ffd54fc4d403c7c74a300f7f20916023cfcf119c5bc051634e",
+      "bytes": 206
+    },
+    "Data/README.md": {
+      "sha256": "47f66abcd707afd2f4d7b6b48e3ae6411ae219df2eb2e48c7cdc5e542b41f03e",
+      "bytes": 1382
+    },
+    "notebooks/colab_gpu.ipynb": {
+      "sha256": "17b35cfd95fc20430f61a6ed43a877536564f6c3f874ee595ff8bcf4800af665",
+      "bytes": 11894
+    },
+    "sentiment/__init__.py": {
+      "sha256": "e6017e636d8254480e3108f8a14ac84c39999423b5d6649c2a437f58a16fecd5",
+      "bytes": 85
+    },
+    "sentiment/data.py": {
+      "sha256": "0ef282da837cd6f5c72cc9fe9e847cec8fbc80694cb35d4880fbc8246ed23670",
+      "bytes": 5119
+    },
+    "sentiment/metrics.py": {
+      "sha256": "aa75019e1058a04d034a6fb982820b57f940da4841a2c8ac8e08e56280055f6c",
+      "bytes": 1825
+    },
+    "sentiment/runtime.py": {
+      "sha256": "aac5b2fca4788fd30c10397a53252f72b6c98af588a7f8f74db274f5de68efb4",
+      "bytes": 8279
+    },
+    "sentiment/train.py": {
+      "sha256": "ca7bea82f141a16d34493ee8a95ce784121544dad5e0099d750431ff2500d29f",
+      "bytes": 5209
+    },
+    "sentiment/predict.py": {
+      "sha256": "c2f4fd9ae35d5987006002c79c328c147887ba831d82c3f9d8ad03aca02c836f",
+      "bytes": 724
+    },
+    "sentiment/smoke.py": {
+      "sha256": "7c42ce603bfb22780208dcab73dcc28c1c96e0f6a33b252aae0b4c82464453e1",
+      "bytes": 3504
+    },
+    "sentiment/workflow.py": {
+      "sha256": "d6f9f8d2a4e0d2910b4517cfea61f56f0197f12911c33e87007f01a291c9675f",
+      "bytes": 6471
+    },
+    "sentiment/reporting.py": {
+      "sha256": "529e38d9cb0a9f2ee545dd202f50a162cafc44ef60c1cfe9d962d3628a4ecedf",
+      "bytes": 4225
+    },
+    "sentiment/colab_workflow.py": {
+      "sha256": "d8bd11ae7a56ab4789ee7f8e6574975b12b12906843d98b440d587a411b12743",
+      "bytes": 8110
+    },
+    "tests/test_core.py": {
+      "sha256": "b6a934c3470bd7fee9c2602ab0bf7f736046bdcad971d67f8337086c0c7295e6",
+      "bytes": 10218
+    },
+    "tests/test_colab_tools.py": {
+      "sha256": "ea2a2ee89ba87aa9e522813a962d7654883ccd1d4a61402606d056fb89dadbaf",
+      "bytes": 3561
+    },
+    "tests/test_workflow.py": {
+      "sha256": "d7f667a8238d6d290097d10c0f775b8346ea277695b511ed15105ede09daf735",
+      "bytes": 5795
+    },
+    "tools/__init__.py": {
+      "sha256": "e5736eb4e5f0b9b6cc30408d94c9d68ed6f05674b3d7c652f3a6b17992473712",
+      "bytes": 77
+    },
+    "tools/package_colab.py": {
+      "sha256": "cefba6f023bc5f1abac0264953e9d43a0fad07768370a9524a154ffe3e408a17",
+      "bytes": 3328
+    },
+    "tools/run_tests.py": {
+      "sha256": "23956db09bc999f699ed621a98b3f0af524fe8b0776dc1019b11b675979c1c19",
+      "bytes": 1277
+    },
+    "reports/original_results.md": {
+      "sha256": "bfe065ccc8b6bf719505c09da59eacb6c35a38b9a0857ea3e78f5d01316587d8",
+      "bytes": 1811
+    },
+    "reports/verification.md": {
+      "sha256": "bf540d8f89df064a5bc4db9c4f5b55710bbb6b1b74783f6a5eaff751df0dcc26",
+      "bytes": 6543
+    },
+    "reports/colab_preparation.md": {
+      "sha256": "b548e8d3244e750e1752ad3ae1e6dc909aff732af766fef4564df4fb45be911d",
+      "bytes": 4333
+    },
+    "reports/workflow_verification.md": {
+      "sha256": "f79e3f0f94429b10a36285a591f127fa991fef25a6608612d5f35790881d0a0f",
+      "bytes": 5256
+    },
+    "reports/local_strict_gate.json": {
+      "sha256": "2fb8721a4396e45d42608f708d584d3f14af27ecf75325b68783906e96c7c189",
+      "bytes": 115
+    }
+  }
+}

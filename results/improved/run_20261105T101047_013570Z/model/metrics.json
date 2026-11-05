@@ -1,0 +1,86 @@
+{
+  "status": "trained",
+  "created_utc": "2026-11-05T10:21:33.841566+00:00",
+  "config": {
+    "seed": 42,
+    "max_length": 200,
+    "max_vocab": 20000,
+    "min_frequency": 2,
+    "embedding_dim": 100,
+    "hidden_dim": 128,
+    "dropout": 0.5,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "epochs": 10,
+    "patience": 3
+  },
+  "data": {
+    "source_sha256": "dfc447764f82be365fa9c2beef4e8df89d3919e3da95f5088004797d79695aa2",
+    "source_records": 50000,
+    "normalized_duplicates_removed": 424,
+    "split_protocol": "normalized deduplication; stratified random 70/15/15; rounding to train",
+    "seed": 42,
+    "vocabulary_size": 20000,
+    "splits": {
+      "train": {
+        "samples": 34704,
+        "negative": 17287,
+        "positive": 17417,
+        "membership_sha256": "45df7e5d7284cad41c4851c329296952dbb41b83eb9e61e7f36dd817a47c287c"
+      },
+      "validation": {
+        "samples": 7436,
+        "negative": 3704,
+        "positive": 3732,
+        "membership_sha256": "6e30d3a306cc9e8dde6f1f8161bda10865a7be77ab35619997e3c62d7e9258a0"
+      },
+      "test": {
+        "samples": 7436,
+        "negative": 3704,
+        "positive": 3732,
+        "membership_sha256": "315958374ab461f0bb2e82ba7f8c53363915dec22da8bb6b9a7ab6dbcffece08"
+      }
+    }
+  },
+  "best_epoch": 5,
+  "selection_metric": "lowest validation loss",
+  "test": {
+    "samples": 7436,
+    "accuracy": 0.8609467455621301,
+    "macro_f1": 0.8607200451212895,
+    "confusion_matrix": [
+      [
+        3051,
+        653
+      ],
+      [
+        381,
+        3351
+      ]
+    ],
+    "classes": {
+      "negative": {
+        "precision": 0.888986013986014,
+        "recall": 0.8237041036717062,
+        "f1": 0.8551008968609866,
+        "support": 3704
+      },
+      "positive": {
+        "precision": 0.836913086913087,
+        "recall": 0.8979099678456591,
+        "f1": 0.8663391933815926,
+        "support": 3732
+      }
+    },
+    "loss": 0.3549927463449413
+  },
+  "elapsed_training_and_test_seconds": 72.52561159800007,
+  "environment": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.4.6",
+    "device": "cuda",
+    "cuda_build": "13.0",
+    "gpu": "Tesla T4"
+  }
+}

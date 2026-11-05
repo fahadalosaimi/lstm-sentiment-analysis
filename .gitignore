@@ -1,0 +1,63 @@
+# Local datasets remain on disk and must be obtained separately by readers.
+Data/*
+!Data/README.md
+!Data/.gitkeep
+# Generated runs: review metrics before deliberately including them in a release.
+outputs/
+dist/
+backups/
+colab_results/
+*.pt
+*.pth
+*.ckpt
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+credentials*.json
+kaggle.json
+*.pem
+.DS_Store
+Thumbs.db
+# Preserve local research inputs/artifacts; publish reviewed summaries instead.
+DLProject_ipynb2 (1).ipynb
+artifacts/*
+!artifacts/README.md
+*.zip
+*.tmp
+*.temp
+*.bak
+*.log
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.aws/
+.ssh/
+wandb/
+tensorboard/
+Upload/
+*.[cC][sS][vV]
+!results/improved/**/final_inference/final_inference.log
+# Local review history and redundant portfolio files remain on disk.
+PUBLICATION_FILES.txt
+GITHUB_READINESS.md
+reports/*
+!reports/original_results.md
+notebooks/lstm_sentiment_improved.ipynb
+results/improved/*/README.md
+results/improved/*/CURATED_MANIFEST.json
+results/improved/*/config.json
+results/improved/*/dataset.json
+results/improved/*/status.json
+results/improved/*/evidence/
+results/improved/*/model/status.json
+results/improved/*/reports/provenance.json

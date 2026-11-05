@@ -1,0 +1,4 @@
+# Use Colab's preinstalled CUDA-enabled torch>=2.6,<3; do NOT replace its CUDA build.
+# Install this file inside Colab only; these are target ranges, not a validated lock.
+numpy>=1.26,<3
+matplotlib>=3.9,<4

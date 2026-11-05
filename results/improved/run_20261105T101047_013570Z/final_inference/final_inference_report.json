@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "inference_executed": true,
+  "retraining": false,
+  "created_utc": "2026-11-05T11:48:44.413770+00:00",
+  "run_id": "run_20261105T101047_013570Z",
+  "model_sha256": "740572862066b6e39dcefd2ddafa4c77f2fbd8560590cd24a559851d65953718",
+  "metadata_sha256": "f774d20762c5d1b8c9e18f2ceeedd7139a43a5de932984d3dd3c4487f0e27f7d",
+  "source_sha256": {
+    "sentiment/__init__.py": "e6017e636d8254480e3108f8a14ac84c39999423b5d6649c2a437f58a16fecd5",
+    "sentiment/data.py": "0ef282da837cd6f5c72cc9fe9e847cec8fbc80694cb35d4880fbc8246ed23670",
+    "sentiment/metrics.py": "aa75019e1058a04d034a6fb982820b57f940da4841a2c8ac8e08e56280055f6c",
+    "sentiment/runtime.py": "aac5b2fca4788fd30c10397a53252f72b6c98af588a7f8f74db274f5de68efb4"
+  },
+  "checker_sha256": "6250c27390340c9b680dc49e4ec018d9015e33604c73be2ebbaf2bf7389149ee",
+  "examples": [
+    {
+      "id": "positive_1",
+      "text": "I loved this movie. The performances were excellent and the story was wonderful.",
+      "expected": "positive",
+      "actual": {
+        "sentiment": "positive",
+        "positive_probability": 0.9804441928863525,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      }
+    },
+    {
+      "id": "positive_2",
+      "text": "This was a brilliant film with great acting and a beautiful ending.",
+      "expected": "positive",
+      "actual": {
+        "sentiment": "positive",
+        "positive_probability": 0.983037531375885,
+        "tokens_used": 12,
+        "unknown_tokens": 0
+      }
+    },
+    {
+      "id": "negative_1",
+      "text": "I hated this movie. The acting was terrible and the story was boring.",
+      "expected": "negative",
+      "actual": {
+        "sentiment": "negative",
+        "positive_probability": 0.011471808888018131,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      }
+    },
+    {
+      "id": "negative_2",
+      "text": "This was an awful film, a complete waste of time with bad acting.",
+      "expected": "negative",
+      "actual": {
+        "sentiment": "negative",
+        "positive_probability": 0.0029635783284902573,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      }
+    }
+  ],
+  "invalid_inputs": [
+    {
+      "case": "empty",
+      "rejected": true
+    },
+    {
+      "case": "whitespace",
+      "rejected": true
+    },
+    {
+      "case": "markup_only",
+      "rejected": true
+    },
+    {
+      "case": "arabic",
+      "rejected": true
+    },
+    {
+      "case": "chinese",
+      "rejected": true
+    },
+    {
+      "case": "none",
+      "rejected": true
+    },
+    {
+      "case": "number",
+      "rejected": true
+    }
+  ],
+  "reload_checks": [
+    {
+      "id": "positive_1",
+      "before": {
+        "sentiment": "positive",
+        "positive_probability": 0.9804441928863525,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "repeated": {
+        "sentiment": "positive",
+        "positive_probability": 0.9804441928863525,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "after_reload": {
+        "sentiment": "positive",
+        "positive_probability": 0.9804441928863525,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "absolute_delta": 0.0
+    },
+    {
+      "id": "positive_2",
+      "before": {
+        "sentiment": "positive",
+        "positive_probability": 0.983037531375885,
+        "tokens_used": 12,
+        "unknown_tokens": 0
+      },
+      "repeated": {
+        "sentiment": "positive",
+        "positive_probability": 0.983037531375885,
+        "tokens_used": 12,
+        "unknown_tokens": 0
+      },
+      "after_reload": {
+        "sentiment": "positive",
+        "positive_probability": 0.983037531375885,
+        "tokens_used": 12,
+        "unknown_tokens": 0
+      },
+      "absolute_delta": 0.0
+    },
+    {
+      "id": "negative_1",
+      "before": {
+        "sentiment": "negative",
+        "positive_probability": 0.011471808888018131,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "repeated": {
+        "sentiment": "negative",
+        "positive_probability": 0.011471808888018131,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "after_reload": {
+        "sentiment": "negative",
+        "positive_probability": 0.011471808888018131,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "absolute_delta": 0.0
+    },
+    {
+      "id": "negative_2",
+      "before": {
+        "sentiment": "negative",
+        "positive_probability": 0.0029635783284902573,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "repeated": {
+        "sentiment": "negative",
+        "positive_probability": 0.0029635783284902573,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "after_reload": {
+        "sentiment": "negative",
+        "positive_probability": 0.0029635783284902573,
+        "tokens_used": 13,
+        "unknown_tokens": 0
+      },
+      "absolute_delta": 0.0
+    }
+  ],
+  "tests_run": 8,
+  "artifact_integrity": "passed",
+  "model_config": {
+    "seed": 42,
+    "max_length": 200,
+    "max_vocab": 20000,
+    "min_frequency": 2,
+    "embedding_dim": 100,
+    "hidden_dim": 128,
+    "dropout": 0.5,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "epochs": 10,
+    "patience": 3
+  },
+  "preprocessing": {
+    "version": 1,
+    "language": "English",
+    "lowercase": true,
+    "html": "unescape then replace tags with spaces",
+    "token_pattern": "[a-z]+(?:'[a-z]+)?",
+    "padding": "right",
+    "truncation": "first max_length tokens",
+    "empty_input": "raise ValueError",
+    "pad_id": 0,
+    "unk_id": 1
+  },
+  "vocabulary_size": 20000,
+  "environment": {
+    "python": "3.13.18",
+    "torch": "2.11.0+cpu",
+    "numpy": "2.4.6",
+    "device": "cpu",
+    "threads": 1
+  },
+  "unknown_word_result": {
+    "sentiment": "positive",
+    "positive_probability": 0.5614917278289795,
+    "tokens_used": 2,
+    "unknown_tokens": 2
+  },
+  "forward_executed": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "failure_details": []
+}

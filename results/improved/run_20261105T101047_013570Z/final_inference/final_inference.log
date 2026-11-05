@@ -1,0 +1,13 @@
+test_01_architecture_vocabulary_preprocessing (__main__.FinalTrainedArtifactTests.test_01_architecture_vocabulary_preprocessing) ... ok
+test_02_positive_reviews (__main__.FinalTrainedArtifactTests.test_02_positive_reviews) ... ok
+test_03_negative_reviews (__main__.FinalTrainedArtifactTests.test_03_negative_reviews) ... ok
+test_04_empty_and_unsupported_inputs (__main__.FinalTrainedArtifactTests.test_04_empty_and_unsupported_inputs) ... ok
+test_05_unknown_english_words (__main__.FinalTrainedArtifactTests.test_05_unknown_english_words) ... ok
+test_06_predictions_stable_after_reload (__main__.FinalTrainedArtifactTests.test_06_predictions_stable_after_reload) ... ok
+test_07_padding_and_single_batch (__main__.FinalTrainedArtifactTests.test_07_padding_and_single_batch) ... ok
+test_99_no_weights_or_files_changed (__main__.FinalTrainedArtifactTests.test_99_no_weights_or_files_changed) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 7.163s
+
+OK
